@@ -6,7 +6,7 @@ MongoDB()
 const app = express()
 app.use(cors())
 app.use(express.json())
-app.use('/get',Index)
+app.use('',Index)
 const PORT = 3080
 
 app.listen(PORT, () => {

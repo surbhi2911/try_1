@@ -15,7 +15,7 @@ import { Getdata } from "./GetUserSchema.js";
 
 const Index = express.Router()
 
-Index.get('/index', async (req, res, next) => {
+Index.get('', async (req, res, next) => {
     const data = await Getdata()
     res.send(data);
 
